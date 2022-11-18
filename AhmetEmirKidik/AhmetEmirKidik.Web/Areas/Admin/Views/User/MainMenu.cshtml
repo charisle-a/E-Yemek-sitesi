@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "MainMenu";
+}
+
+<h2>Ana sayfa</h2>
+<div class="row">
+	<div class="col-sm-4">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Ürün Ayarlar</h5>
+				<p class="card-text">@ViewBag.Urun tane ürün var</p>
+				<a href="@Url.Action("List","Urun")" class="btn btn-primary">Git</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Kategori Ayarlar</h5>
+				<p class="card-text">@ViewBag.Kategori tane Kategori var</p>
+				<a href="@Url.Action("List","Kategori")" class="btn btn-info">Git</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Kullanıcı Ayarlar</h5>
+				<p class="card-text">@ViewBag.Kullanıcı tane Kullanıcı var</p>
+				<a href="@Url.Action("List","User")" class="btn btn-danger">Git</a>
+			</div>
+		</div>
+	</div>
+</div>
+

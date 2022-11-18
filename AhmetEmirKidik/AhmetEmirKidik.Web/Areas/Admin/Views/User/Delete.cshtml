@@ -1,0 +1,20 @@
+﻿@model AhmetEmirKidik.EntityLayer.Kullanıcı
+@{
+	ViewBag.Title = "Delete";
+}
+
+<h2>Kullanıcı Sil</h2>
+<p>@Model.EPosta kullanıcısını silmek istiyor musunuz</p>
+@using (Html.BeginForm("Delete", "User", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+	@Html.AntiForgeryToken()
+	<form>
+		
+		<div class="form-group col-md-12">
+			<a href="@Url.Action("List")" class="btn btn-outline-secondary btn-lg btn-block">İptal</a>
+			<button type="submit" class="fa fa-trash btn-danger btn-lg btn-block">Sil</button>
+		</div>
+		
+	</form>
+}
+

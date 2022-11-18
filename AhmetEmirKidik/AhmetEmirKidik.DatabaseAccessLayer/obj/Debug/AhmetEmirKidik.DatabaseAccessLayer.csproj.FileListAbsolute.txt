@@ -1,0 +1,16 @@
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\obj\Debug\AhmetEmirKidik.DatabaseAccessLayer.csproj.AssemblyReference.cache
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\obj\Debug\AhmetEmirKidik.DatabaseAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\SiteDb.mdf
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\SiteDb_log.ldf
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\AhmetEmirKidik.DatabaseAccessLayer.dll.config
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\AhmetEmirKidik.DatabaseAccessLayer.dll
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\AhmetEmirKidik.DatabaseAccessLayer.pdb
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\AhmetEmirKidik.EntityLayer.dll
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\AhmetEmirKidik.EntityLayer.pdb
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\obj\Debug\AhmetEmirKidik.DatabaseAccessLayer.csproj.CopyComplete
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\obj\Debug\AhmetEmirKidik.DatabaseAccessLayer.dll
+C:\Users\kitsuneem\Desktop\AhmetEmirKidik\AhmetEmirKidik.DatabaseAccessLayer\obj\Debug\AhmetEmirKidik.DatabaseAccessLayer.pdb

@@ -1,0 +1,33 @@
+﻿@model List<AhmetEmirKidik.EntityLayer.Kullanıcı>
+@{
+    ViewBag.Title = "List";
+}
+<h2>List</h2>
+<a href="@Url.Action("Add")" class="btn btn-primary">Kullanıcı Ekle</a>
+<hr />
+<br />
+<table class="table table-borderless table-dark">
+	<thead>
+		<tr>
+			<th scope="col">Id</th>
+			<th scope="col">EPosta</th>
+			<th scope="col">Parola</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var item in Model)
+			{
+				<tr>
+					<th scope="row">@item.Id</th>
+					<td>@item.EPosta</td>
+					<td>@item.Parola</td>
+					<td>
+						<a href="@Url.Action("Delete",new { id=item.Id})" class="fa fa-trash btn btn-danger">Sil</a>
+						<a href="@Url.Action("Update",new { id=item.Id})" class="fa fa-database fa-3x btn btn-info">Düzenle</a>
+					</td>
+				</tr>
+			}
+		
+	</tbody>
+</table>

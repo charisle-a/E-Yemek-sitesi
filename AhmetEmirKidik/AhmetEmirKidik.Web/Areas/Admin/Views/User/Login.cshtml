@@ -1,0 +1,51 @@
+﻿@model AhmetEmirKidik.EntityLayer.Kullanıcı
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+	<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+	<link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<script src="~/Scripts/modernizr-2.8.3.js"></script>
+	<title>Login</title>
+</head>
+<body class="bg-dark text-white" >
+	<div>
+		<h2 class="offset-4">Giriş Yapınız.</h2>
+		<br />
+		@using (Html.BeginForm("Login", "User", FormMethod.Post, new { @class = "form-horizontal" }))
+		{
+			@Html.AntiForgeryToken()
+    <form>
+        <div class="form-group offset-4">
+            
+        </div>
+        <div class="form-group offset-4">
+            @Html.LabelFor(x => x.EPosta, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10 fa fa-lock">
+                @Html.TextBoxFor(x => x.EPosta, new { @class = "form-control", @type = "email", @placeholder = "Email giriniz." })
+                @Html.ValidationSummary()
+            </div>
+        </div>
+        <br />
+        <div class="form-group offset-4">
+            @Html.LabelFor(x => x.Parola, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.Parola, new { @class = "form-control", @type = "password", @placeholder = "Parola giriniz." })
+            </div>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary offset-4">Giriş yap</button>
+    </form>
+		}
+	</div>
+	<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

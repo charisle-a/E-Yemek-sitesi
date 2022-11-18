@@ -1,0 +1,18 @@
+﻿@model AhmetEmirKidik.EntityLayer.Urun
+@{
+	ViewBag.Title = "ShowCard";
+}
+
+<img class="rounded mx-auto d-block" src="https://c4.wallpaperflare.com/wallpaper/204/360/992/chef-kitchen-anime-girls-yahari-ore-no-seishun-love-comedy-wa-machigatteiru-wallpaper-preview.jpg" class="img-fluid" alt="Responsive image">
+<div class="card text-white bg-dark mb-8 rounded mx-auto d-block" style="max-width: 46rem;">
+	
+	<div class="card-header">(kategorinin indexi geliyor anlayamadım)@Model.Kategori</div>
+	<div class="card-body">
+		<h5 class="card-title">@Model.Ad</h5>
+		<p class="card-text">@Model.Aciklama</p>
+		<p class="bg-info">@Model.Fiyat</p>
+	</div>
+	<br />
+	<br />
+	<br />
+</div>
